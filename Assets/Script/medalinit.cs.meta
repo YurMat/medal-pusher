@@ -3,7 +3,10 @@ guid: 78ce602152badab42b1a1f8f621911cf
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - medalObjPrefab: {fileID: 1755291705282460, guid: f53b9e46eadb07c45a61009d36e88518,
+      type: 2}
+  - medalsObj: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
