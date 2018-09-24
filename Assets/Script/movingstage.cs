@@ -7,7 +7,7 @@ public class Movingstage : MonoBehaviour {
     [SerializeField]
     private Vector3 _startPosition;
     private Vector3 _targetPosition;
-    private float _duration = 1f;
+    private float _duration = 2f;
     private float _time = 0;
     //private int _dirFactor = 1;
     private bool _inverse = false;

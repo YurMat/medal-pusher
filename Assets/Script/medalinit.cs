@@ -15,15 +15,14 @@ public class Medalinit : MonoBehaviour {
     // Use this for initialization
     void Start () {
         Debug.Log("Start");
-        //GetComponent<Rigidbody>().position = Vector3.zero;
     }
 	
 	// Update is called once per frame
 	void Update () {
-        //left ctrl ボタンを押すとインプット
+        //left ctrl ボタンを押すとメダルを出す
         if (Input.GetButtonDown("Fire1"))
         {
-            Vector3 offs = new Vector3(Mathf.Sin(Time.time), 2, 0);
+            Vector3 offs = new Vector3(Mathf.Sin(Time.time), 2, Mathf.Sin(Time.time));
             Debug.Log("Input.GetButtonDown Fire1");
             Instantiate(medalObjPrefab, transform.position + offs, transform.rotation);
         }
